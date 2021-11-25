@@ -1,20 +1,28 @@
 \documentclass{minimal}
+
 \usepackage{xeCJK}
 \usepackage{ruby}
 \usepackage{fontsize}
+\usepackage{xcolor}
+
 \changefontsize[40pt]{18pt}
 \setCJKmainfont{MS Gothic}
+%\setCJKmainfont{UD Digi Kyokasho NK-R}
 
 \renewcommand{\rubysep}{-1.5ex}
 
 \begin{document}
 
-\ruby{昔}{むかし}、このあたりは\ruby{海}{うみ}だったそうだ。
+\textcolor{blue}{\ruby{昔}{むかし}}、
+このあたりは\ruby{海}{うみ}だったそうだ。
 
-\ruby{小}{ちい}さいときに\ruby{母}{はは}から\ruby{聞}{き}いた\ruby{昔話}{むかしばなし}を、\ruby{思}{おも}い\ruby{出}{だ}す。
+\ruby{小}{ちい}さいときに\ruby{母}{はは}から\ruby{聞}{き}いた\textcolor{blue}{\ruby{昔話}{むかしばなし}}を、
+\ruby{思}{おも}い\ruby{出}{だ}す。
 
-\ruby{一}{ひと}\ruby{昔}{むかし}\ruby{前}{まえ}、このへんは\ruby{田}{た}んぼだった。
+\textcolor{blue}{\ruby{一昔前}{ひとむかしまえ}}、
+このへんは\ruby{田}{た}んぼだった。
 
-「\ruby{今昔物語集}{こんじゃくものがたりしゅう}」は、たくさんの\ruby{話}{はなし}を\ruby{集}{あつ}めた\ruby{昔}{むかし}の\ruby{本}{ほん}です。
+\textcolor{blue}{「\ruby{今昔物語集}{こんじゃくものがたりしゅう}」}は、
+たくさんの\ruby{話}{はなし}を\ruby{集}{あつ}めた\ruby{昔}{むかし}の\ruby{本}{ほん}です。
 
 \end{document}
